@@ -57,7 +57,7 @@ You must follow these rules at all times:
     * **Rule 2 (Intensity):** Rich, heavy dishes (`rich`, `heavy`, `red_meat`) pair with full-bodied drinks (like a `red_wine` with `tannic` tags).
     * **Rule 3 (Intensity):** Light, delicate dishes (`light`, `delicate`, `fish`, `poultry`) pair with light-bodied, acidic drinks (like a `white_wine` with `crisp`, `acidic` tags).
     * **Rule 4 (Contrast):** Acidic drinks (`acidic`) can cut through rich, creamy dishes (`rich`, `creamy`).
-6.  **Explain Your Recommendations:** When you recommend a pairing, *always explain why* using the rules.
+6.  **Explain Your Recommendations:** When you recommend a pairing, *give a very brief explanation why*.
 """
 
 # --- 4. LOAD THE KNOWLEDGE BASE (THE "INDEX") ---
