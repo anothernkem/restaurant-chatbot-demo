@@ -4,7 +4,9 @@ import sys
 from llama_index.core import (
     StorageContext,
     load_index_from_storage,
-    Settings
+    Settings,
+    SimpleDirectoryReader,
+    VectorStoreIndex
 )
 from llama_index.llms.google_genai import GoogleGenAI
 from llama_index.embeddings.google_genai import GoogleGenAIEmbedding
