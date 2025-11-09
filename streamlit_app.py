@@ -103,12 +103,12 @@ if "chat_engine" not in st.session_state:
     )
 
 # --- 6. MANAGE & DISPLAY CHAT HISTORY ---
-st.title("🍽️ RestaurantBot")
-st.caption("Ask me about the menu, allergens, or what's good!")
+st.title("🍔 B-West Grill")
+st.caption("So what would you like to know about the menu?")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hi! I'm RestaurantBot. Ask me anything about the menu."}
+        {"role": "assistant", "content": "Hi! I'm B-West cyber waiter. Ask me anything about the menu."}
     ]
 
 for msg in st.session_state.messages:
